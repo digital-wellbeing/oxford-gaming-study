@@ -4,14 +4,21 @@ theme: just-the-docs
 
 url: https://digital-wellbeing.github.io/oxford-gaming-study
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
 aux_links:
   "Oxford Internet Institute": 
-    - https://github.com/just-the-docs/just-the-docs-template
+    - https://oii.ox.ac.uk
   "Dr Nick Ballou personal site": 
     - https://nickballou.com
   
 
-logo: "/assets/images/logo.png"
+logo: "assets/images/logo.png"
 
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
